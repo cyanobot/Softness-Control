@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Biomes! Prehistoric</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="BMT_DinoHideThin"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.32</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="BMT_DinoHideMedium"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.24</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="BMT_DinoHideHeavy"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.11</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="BMT_DinoHideArmored"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.08</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="BMT_DinoHideFeathery"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.44</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="BMT_PrimordialChitin"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.1</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="BMT_DinoFeather"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.47</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="BMT_DinoHideChromatic"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.24</Textile_Softness>
+				</value>
+			</li>
+				
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Vanilla Animals Expanded</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="AEXP_Leather_Hippopotamus"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.20</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="AEXP_Leather_Wildebeest"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.28</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="AEXP_Leather_Platypus"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.52</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="AEXP_Leather_Lion"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.42</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="WoolCamel"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.44</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="AEXP_Leather_Pinniped"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.54</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="AEXP_Leather_Tiger"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.45</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="AEXP_MuskOxWool"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.58</Textile_Softness>
+				</value>
+			</li>
+		
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

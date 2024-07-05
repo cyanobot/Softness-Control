@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Expanded Materials - Plastics</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="VMEu_PolyesterCloth"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.5</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[@Name="SynthleatherBase"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.36</Textile_Softness>
+				</value>
+			</li>
+				
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

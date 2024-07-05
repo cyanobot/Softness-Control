@@ -1,0 +1,21 @@
+vanilla beds rest effectiveness: 
+sleeping spot 80%
+bedroll (any) 95%
+bed 100%
+hospital bed 100%
+royal bed 105%
+
+
+soft warm beds
+sleeping spot 30%
+hammock (cloth=62%) 109%
+hammock (plainleather=32%) 79%
+bedroll (cloth=62%) 107%
+bedroll (plainleather=32%) 77%
+bed (unmade) 50%
+bed (cloth=62%) 112%
+bed (plainleather=32%) 82%
+
+as good as a vanilla bed = 50%
+cloth is an extra expense over vanilla so being a little better doesn't seem unfair
+even moderately bad bedding should be at least 30%

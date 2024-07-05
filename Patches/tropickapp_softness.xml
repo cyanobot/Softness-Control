@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Tropi[CKAPP] Rainforest Mod (Continued)</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CK_LeatherPanda"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.48</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CK_LeatherTiger"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.45</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CK_LeatherWhiteTiger"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.45</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CK_LeatherSnowLeopard"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.55</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CK_LeatherJaguar"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.48</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CK_LeatherArcticHare"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.58</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CK_LeatherKomodoDragon"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.1</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CK_LeatherMonkey"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.58</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CK_LeatherPython"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.3</Textile_Softness>
+				</value>
+			</li>
+				
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

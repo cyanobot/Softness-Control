@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>ReGrowth: Extinct Animals</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="RG_DinosaursHideThin"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.32</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="RG_DinosaursHideMedium"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.24</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="RG_DinosaursHideHeavy"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.18</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="RG_WoolRhinoceros"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.4</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="RG_WoolStegosaurus"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.4</Textile_Softness>
+				</value>
+			</li>
+				
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

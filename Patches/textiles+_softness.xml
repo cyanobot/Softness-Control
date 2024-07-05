@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Textiles+(continued)</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Denim"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.54</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Silk"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.71</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Linen"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.62</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Fustian"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.53</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Corduroy"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.52</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Kevlar"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.15</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Sinstrand"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.5</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="VBY_NanoFiber"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.5</Textile_Softness>
+				</value>
+			</li>
+		
+		
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

@@ -1,0 +1,4 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\SoftnessControl\Assemblies\SoftnessControl.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\SoftnessControl\Source\SoftnessControl\obj\Debug\SoftnessControl.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\SoftnessControl\Source\SoftnessControl\obj\Debug\SoftnessControl.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\SoftnessControl\Source\SoftnessControl\obj\Debug\SoftnessControl.dll

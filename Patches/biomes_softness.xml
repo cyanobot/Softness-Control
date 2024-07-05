@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Biomes! Core</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+		
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="BMT_CrimsonSilk"]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="BMT_CrimsonSilk"]/statBases</xpath>
+					<value>
+						<Textile_Softness>0.7</Textile_Softness>
+					</value>
+				</match>
+			</li>
+		
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[@Name="BiomesCore_ChitinBase"]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[@Name="BiomesCore_ChitinBase"]/statBases</xpath>
+					<value>
+						<Textile_Softness>0.1</Textile_Softness>
+					</value>
+				</match>
+			</li>
+		
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="BiomesCore_CrabShell"]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="BiomesCore_CrabShell"]/statBases</xpath>
+					<value>
+						<Textile_Softness>0</Textile_Softness>
+					</value>
+				</match>
+			</li>
+		
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="BMT_Molluskshell"]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="BMT_Molluskshell"]/statBases</xpath>
+					<value>
+						<Textile_Softness>0.05</Textile_Softness>
+					</value>
+				</match>
+			</li>
+		
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="BMT_Leather_Gastropoda"]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="BMT_Leather_Gastropoda"]/statBases</xpath>
+					<value>
+						<Textile_Softness>0.23</Textile_Softness>
+					</value>
+				</match>
+			</li>
+		
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="BMT_Leather_Amphibian"]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="BMT_Leather_Amphibian"]/statBases</xpath>
+					<value>
+						<Textile_Softness>0.35</Textile_Softness>
+					</value>
+				</match>
+			</li>
+		
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="BMT_Leather_Magma"]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="BMT_Leather_Magma"]/statBases</xpath>
+					<value>
+						<Textile_Softness>0.26</Textile_Softness>
+					</value>
+				</match>
+			</li>
+		
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="BMT_ToughLeather"]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="BMT_ToughLeather"]/statBases</xpath>
+					<value>
+						<Textile_Softness>0.18</Textile_Softness>
+					</value>
+				</match>
+			</li>
+		
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="BiomesIslands_Leather_Sharkskin"]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="BiomesIslands_Leather_Sharkskin"]/statBases</xpath>
+					<value>
+						<Textile_Softness>0.1</Textile_Softness>
+					</value>
+				</match>
+			</li>
+		
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="BiomesIslands_Leather_Fishskin"]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="BiomesIslands_Leather_Fishskin"]/statBases</xpath>
+					<value>
+						<Textile_Softness>0.24</Textile_Softness>
+					</value>
+				</match>
+			</li>
+		
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="BiomesIslands_Leather_Whaleskin"]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="BiomesIslands_Leather_Whaleskin"]/statBases</xpath>
+					<value>
+						<Textile_Softness>0.28</Textile_Softness>
+					</value>
+				</match>
+			</li>
+		
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="BiomesIslands_Leather_Pinnipedskin"]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="BiomesIslands_Leather_Pinnipedskin"]/statBases</xpath>
+					<value>
+						<Textile_Softness>0.45</Textile_Softness>
+					</value>
+				</match>
+			</li>
+		
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="BMT_CrystalChitin"]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="BMT_CrystalChitin"]/statBases</xpath>
+					<value>
+						<Textile_Softness>0</Textile_Softness>
+					</value>
+				</match>
+			</li>
+		
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="BMT_Leather_GlacialPlain"]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="BMT_Leather_GlacialPlain"]/statBases</xpath>
+					<value>
+						<Textile_Softness>0.28</Textile_Softness>
+					</value>
+				</match>
+			</li>
+		
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

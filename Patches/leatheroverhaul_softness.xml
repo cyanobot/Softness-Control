@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Cyanobots Leather Overhaul</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Leather_Lizard"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.34</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CYB_Leather_Fur"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.45</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CYB_Leather_SoftFur"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.67</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CYB_Leather_Polar"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.48</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CYB_Leather_Wool"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.44</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CYB_Leather_HeavyScale"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.1</Textile_Softness>
+				</value>
+			</li>
+		
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

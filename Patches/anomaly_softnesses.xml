@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Anomaly</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Leather_Dread"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.15</Textile_Softness>
+				</value>
+			</li>
+		
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

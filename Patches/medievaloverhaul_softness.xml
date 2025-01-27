@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Medieval Overhaul</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="DankPyon_Leather_Rox"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.35</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="DankPyon_WoolRox"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.40</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="DankPyon_Leather_Griffon"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.48</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="DankPyon_Leather_Direwolf"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.40</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="DankPyon_Leather_DireBoar"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.34</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="DankPyon_Leather_Hyena"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.42</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="DankPyon_Leather_Troll"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.3</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="DankPyon_Leather_Daer"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.39</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="DankPyon_Leather_Lindwurm"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.15</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="DankPyon_Leather_Rawhide"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.23</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="DankPyon_Linen"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.62</Textile_Softness>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="DankPyon_Silk"]/statBases</xpath>
+				<value>
+					<Textile_Softness>0.75</Textile_Softness>
+				</value>
+			</li>
+				
+		</operations>
+	</match>
+</Operation>
+
+</Patch>
